@@ -1,4 +1,5 @@
 import React from "react";
+import image from '../assets/images/beach.jpg';
 
 let currentDate = new Date().toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"}) ;
 let currentHour = new Date().getHours();
@@ -15,7 +16,7 @@ let greeting = () => {
 let Hero = () => {
     return (
         <section class="hero-section">
-            <div class="hero-container">
+            <div style={{ backgroundImage:`url(${image})` }} class="hero-container">
                 <div class="hero-text">
                     <h1 class="animate__animated animate__fadeInDown hero-title"><span id="greeting">{greeting()}</span>,<br />I'm Isaiah!</h1>
                     <h2 class="animate__animated animate__fadeInUp">Aspiring Software Engineer</h2>

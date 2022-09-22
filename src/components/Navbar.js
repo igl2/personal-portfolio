@@ -1,10 +1,20 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Logo from '../assets/images/portfolio-logo.png';
 
 let Navbar = () => {
+    let [colorChange, setColorChange] = useState(false);
+
+    let changeNavbarColor = () => {
+        if(window.scrollY >= 60) {
+            setColorChange(true);
+        } else {
+            setColorChange(false);
+        }
+    }
+    
     return (
         <div>
-            <nav class="navbar fixed-top navbar-expand-lg bg-dark">
+            <nav onScroll={changeNavbarColor} className={colorChange ? 'navbar fixed-top navbar-expand-lg colorChange' : 'navbar fixed-top navbar-expand-lg'} >
                 <div class="container-fluid">
                     <a class="navbar-brand" href="/"><img className="logo" src={Logo} alt="brand" /></a>
                     <button class="custom-toggler navbar-toggler" type="button" data-bs-toggle="collapse"

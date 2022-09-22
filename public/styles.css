@@ -43,7 +43,7 @@ p {
     transition: 0.75s ease;
 }
 
-.navbar.scrolled {
+.navbar.colorChange {
     background-color: #020c1b;
 }
 
