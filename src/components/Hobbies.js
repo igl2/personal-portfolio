@@ -13,7 +13,7 @@ let Hobbies = () => {
                     </div>
                     <div class="hobbies-card">
                         <div class="hobbies-icon"><i class="fa-solid fa-code"></i></div>
-                        <h4>Web Development</h4>
+                        <h4>Software Development</h4>
                         <p>With a degree in Software Design and Development, I have learned the fundamentals of software engineering and
                             computer science. I've familiarized myself with various languages and technologies to get a better
                             understanding of different types of software. I am always eager to learn more and expand my knowledge.</p>
