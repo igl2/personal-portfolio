@@ -11,10 +11,10 @@ let Navbar = () => {
             setColorChange(false);
         }
     }
-    
+    window.addEventListener('scroll', changeNavbarColor);
     return (
         <div>
-            <nav onScroll={changeNavbarColor} className={colorChange ? 'navbar fixed-top navbar-expand-lg colorChange' : 'navbar fixed-top navbar-expand-lg'} >
+            <nav className={colorChange ? 'navbar fixed-top navbar-expand-lg colorChange' : 'navbar fixed-top navbar-expand-lg'} >
                 <div class="container-fluid">
                     <a class="navbar-brand" href="/"><img className="logo" src={Logo} alt="brand" /></a>
                     <button class="custom-toggler navbar-toggler" type="button" data-bs-toggle="collapse"
