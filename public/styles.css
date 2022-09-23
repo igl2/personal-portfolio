@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-body {
+html, body, .app {
     margin: 0;
     font-family: "Numans", sans-serif;
 }
@@ -82,7 +82,6 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* background-image: url('../src/assets/images/beach.jpg'); */
     background-color: #68a063;
     background-attachment: fixed;
     background-size: cover;

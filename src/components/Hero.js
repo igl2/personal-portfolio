@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from "react";
+import 'animate.css';
 import image from '../assets/images/beach.jpg';
 
 let currentDate = new Date().toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"}) ;
