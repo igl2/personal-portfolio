@@ -16,10 +16,12 @@ let Navbar = () => {
         <div>
             <nav className={colorChange ? 'navbar fixed-top navbar-expand-lg colorChange' : 'navbar fixed-top navbar-expand-lg'} >
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="/"><img className="logo" src={Logo} alt="brand" /></a>
-                    <button class="custom-toggler navbar-toggler" type="button" data-bs-toggle="collapse"
+                    <a class="navbar-brand" href="#hero-section"><img className="logo" src={Logo} alt="brand" /></a>
+                    <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <span class="toggler-icon top-bar"></span>
+                        <span class="toggler-icon middle-bar"></span>
+                        <span class="toggler-icon bottom-bar"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto">

@@ -27,7 +27,7 @@ let Hero = () => {
     }, []);
 
     return (
-        <section class="hero-section">
+        <section class="hero-section" id="hero-section">
             <div style={{ backgroundImage:`url(${image})` }} class="hero-container">
                 <div class="hero-text">
                     <h1 class="animate__animated animate__fadeInDown hero-title"><span style={{color: greetingTextColor}}>{greetingText}</span>,<br />I'm Isaiah!</h1>
