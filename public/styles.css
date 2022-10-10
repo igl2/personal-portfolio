@@ -138,11 +138,11 @@ p {
 
 /* Hero Section */
 .hero-container {
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.75);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #68a063;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
