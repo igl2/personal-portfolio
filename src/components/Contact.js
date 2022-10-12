@@ -26,7 +26,7 @@ let Contact = () => {
                             <textarea type="text" class="form-control" id="message-input" placeholder="Message" name="user_message"
                                 rows="3" required></textarea>
                         </div>
-                        <div class="email-form-btn">
+                        <div class="email-btn-wrapper">
                             <button class="btn email-submit-btn" type="submit">Send <i class="fa-solid fa-paper-plane"></i></button>
                         </div>
                     </form>

@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import 'animate.css';
 import image from '../assets/images/beach.jpg';
+import file from '../static/Isaiah_Lleva_Resume.pdf';
 
 let currentDate = new Date().toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"}) ;
 let currentHour = new Date().getHours();
@@ -31,8 +32,10 @@ let Hero = () => {
             <div style={{ backgroundImage:`url(${image})` }} class="hero-container">
                 <div class="hero-text-wrapper">
                     <h1 class="animate__animated animate__fadeInDown hero-title"><span style={{color: greetingTextColor}}>{greetingText}</span>,<br />I'm Isaiah!</h1>
-                    <h2 class="animate__animated animate__fadeInDown hero-subtitle">Aspiring Software Engineer</h2>
+                    <h2 class="animate__animated animate__fadeInDown hero-subtitle">I'm a web developer seeking to take my skills to next level by working for a big company as a software engineer.</h2>
                     <h2 class="animate__animated animate__fadeInRight hero-date"><span id="date">{currentDate}</span></h2>
+                    <button class="resume-btn" href={file} target="_blank" rel="noreferrer">Resume <i
+                    class="fa-solid fa-square-arrow-up-right"></i></button>
                 </div>
                 <a class="down-arrow" href="#about-section" aria-label="down-arrow"><i
                     class="fa-solid fa-angle-down animate__animated animate__fadeInDown"></i></a>
