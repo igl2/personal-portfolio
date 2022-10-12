@@ -517,11 +517,12 @@ textarea {
 
     .hero-date {
         font-size: 20px;
+        margin-bottom: 50px;
         position: static;
     }
 
     .resume-btn {
-        margin-top: 50px;
+        margin-top: 0px;
     }
 
     .about-grid {
