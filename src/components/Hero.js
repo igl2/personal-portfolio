@@ -34,8 +34,8 @@ let Hero = () => {
                     <h1 class="animate__animated animate__fadeInDown hero-title"><span style={{color: greetingTextColor}}>{greetingText}</span>,<br />I'm Isaiah!</h1>
                     <h2 class="animate__animated animate__fadeInDown hero-subtitle">I'm a web developer seeking to take my skills to next level by working for a big company as a software engineer.</h2>
                     <h2 class="animate__animated animate__fadeInRight hero-date"><span id="date">{currentDate}</span></h2>
-                    <button class="resume-btn" href={file} target="_blank" rel="noreferrer">Resume <i
-                    class="fa-solid fa-square-arrow-up-right"></i></button>
+                    <a type="button" class="resume-btn" href={file} target="_blank" rel="noreferrer">Resume <i
+                    class="fa-solid fa-square-arrow-up-right"></i></a>
                 </div>
                 <a class="down-arrow" href="#about-section" aria-label="down-arrow"><i
                     class="fa-solid fa-angle-down animate__animated animate__fadeInDown"></i></a>
