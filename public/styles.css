@@ -520,6 +520,10 @@ textarea {
         position: static;
     }
 
+    .resume-btn {
+        margin-top: 50px;
+    }
+
     .about-grid {
         display: grid;
         grid-template-columns: 1fr;
