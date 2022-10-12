@@ -42,6 +42,7 @@ p {
 
 .navbar.colorChange {
     background-color: #020c1b;
+    opacity: 0.9;
 }
 
 .navbar li a {
