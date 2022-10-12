@@ -159,7 +159,6 @@ p {
 
 .hero-subtitle {
     font-size: 20px;
-    margin-bottom: 20px;
     width: 750px;
 }
 
@@ -176,6 +175,7 @@ p {
     color: #fff;
     padding: 15px 32px;
     font-size: 16px;
+    margin-top: 50px;
     transition-duration: 0.2s;
 }
 
@@ -258,7 +258,7 @@ p {
 .hobbies-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 50px;
+    column-gap: 80px;
 }
 
 .hobbies-icon {
@@ -274,6 +274,10 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.hobbies-text {
+    text-align: center;
 }
 
 /* Projects */
@@ -448,7 +452,7 @@ textarea {
 
 /* Footer */
 .copyright {
-    color: #64ffda;
+    color: #fff;
     font-size: 0.75rem;
     padding: 20px 0;
 }
@@ -463,15 +467,25 @@ textarea {
 }
 
 .social-icon {
-    color: #64ffda;
+    color: #fff;
     margin: 10px 20px;
     text-decoration: none;
     font-size: 1.5rem;
     transition-duration: 0.4s;
 }
 
-.social-icon:hover {
-    color: #ffd580;
+.fa-linkedin:hover {
+    color: #0072b1;
+    transition-duration: 0.4s;
+}
+
+.fa-github:hover {
+    color: #b4baba;
+    transition-duration: 0.4s;
+}
+
+.fa-instagram:hover {
+    color: #e95950;
     transition-duration: 0.4s;
 }
 

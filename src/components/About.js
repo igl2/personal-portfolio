@@ -1,6 +1,6 @@
 import React from "react";
 import profilePhoto from '../assets/images/profile-img.png';
-import file from '../static/Isaiah_Lleva_Resume.pdf';
+// import file from '../static/Isaiah_Lleva_Resume.pdf';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 let About = () => {
@@ -23,8 +23,8 @@ let About = () => {
                         <p class="about-info">While studying to earn my degree, I worked part time in various companies to make my ends meet. With those jobs, I learned how to collaborate, communicate, and work as a team. In addition, I've always tried to keep myself active through hobbies such as exercise, running, sports, and clubs.</p>
                     </AnimationOnScroll>
                 </div>
-                <button class="btn" href={file} target="_blank" rel="noreferrer">Resume <i
-                    class="fa-solid fa-square-arrow-up-right"></i></button>
+                {/* <button class="btn" href={file} target="_blank" rel="noreferrer">Resume <i
+                    class="fa-solid fa-square-arrow-up-right"></i></button> */}
             </div>
         </section>
     )
