@@ -28,17 +28,17 @@ let Hero = () => {
     }, []);
 
     return (
-        <section class="hero-section" id="hero-section">
-            <div style={{ backgroundImage:`url(${image})` }} class="hero-container">
-                <div class="hero-text-wrapper">
-                    <h1 class="animate__animated animate__fadeInDown hero-title"><span style={{color: greetingTextColor}}>{greetingText}</span>,<br />I'm Isaiah!</h1>
-                    <h2 class="animate__animated animate__fadeInDown hero-subtitle">I'm a web developer seeking to take my skills to next level by working for a big company as a software engineer.</h2>
-                    <h2 class="animate__animated animate__fadeInRight hero-date"><span id="date">{currentDate}</span></h2>
-                    <a type="button" class="resume-btn" href={file} target="_blank" rel="noreferrer">Resume <i
-                    class="fa-solid fa-square-arrow-up-right"></i></a>
+        <section className="hero-section" id="hero-section">
+            <div style={{ backgroundImage:`url(${image})` }} className="hero-container">
+                <div className="hero-text-wrapper">
+                    <h1 className="animate__animated animate__fadeInDown hero-title"><span style={{color: greetingTextColor}}>{greetingText}</span>,<br />I'm Isaiah!</h1>
+                    <h2 className="animate__animated animate__fadeInDown hero-subtitle">I'm a web developer seeking to take my skills to next level by working for a big company as a software engineer.</h2>
+                    <h2 className="animate__animated animate__fadeInRight hero-date"><span id="date">{currentDate}</span></h2>
+                    <a type="button" className="resume-btn" href={file} target="_blank" rel="noreferrer">Resume <i
+                    className="fa-solid fa-square-arrow-up-right"></i></a>
                 </div>
-                <a class="down-arrow" href="#about-section" aria-label="down-arrow"><i
-                    class="fa-solid fa-angle-down animate__animated animate__fadeInDown"></i></a>
+                <a className="down-arrow" href="#about-section" aria-label="down-arrow"><i
+                    className="fa-solid fa-angle-down animate__animated animate__fadeInDown"></i></a>
             </div>
         </section>
     )
