@@ -17,13 +17,13 @@ html, body, .app {
     padding: 120px 30px;
 }
 
-h1 {
+/* h1 {
     text-align: center;
-}
+} */
 
 h2 {
     font-weight: normal;
-    text-align: center;
+    /* text-align: center; */
 }
 
 h3 {
@@ -153,8 +153,13 @@ p {
 }
 
 .hero-title {
-    font-size: 50px;
-    margin: 15px;
+    font-size: 75px;
+    font-weight: 700;
+    /* margin: 15px; */
+}
+
+.hero-subtitle {
+    font-size: 40px;
 }
 
 .hero-date {
@@ -471,6 +476,10 @@ textarea {
         background-attachment: local;
     }
 
+    .hero-title {
+        font-size: 60px;
+    }
+
     .hero-date {
         position: static;
     }
@@ -512,7 +521,15 @@ textarea {
     }
 
     .hero-title {
-        font-size: 35px;
+        font-size: 45px;
+    }
+
+    .hero-subtitle {
+        font-size: 23px;
+    }
+
+    .hero-text-wrapper {
+        margin: 0px 15px;
     }
 
     .hero-date {

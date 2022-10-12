@@ -29,9 +29,9 @@ let Hero = () => {
     return (
         <section class="hero-section" id="hero-section">
             <div style={{ backgroundImage:`url(${image})` }} class="hero-container">
-                <div class="hero-text">
+                <div class="hero-text-wrapper">
                     <h1 class="animate__animated animate__fadeInDown hero-title"><span style={{color: greetingTextColor}}>{greetingText}</span>,<br />I'm Isaiah!</h1>
-                    <h2 class="animate__animated animate__fadeInDown">Aspiring Software Engineer</h2>
+                    <h2 class="animate__animated animate__fadeInDown hero-subtitle">Aspiring Software Engineer</h2>
                     <h2 class="animate__animated animate__fadeInRight hero-date"><span id="date">{currentDate}</span></h2>
                 </div>
                 <a class="down-arrow" href="#about-section" aria-label="down-arrow"><i
