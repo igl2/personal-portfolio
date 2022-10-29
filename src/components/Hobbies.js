@@ -6,32 +6,29 @@ let Hobbies = () => {
         <section className="hobbies-section" id="hobbies-section">
             <div className="container">
                 <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce={true}>
-                    <h3>Who I am and What I do</h3>
+                    <h3>Hobbies</h3>
                 </AnimationOnScroll>
                 <div className="hobbies-grid">
-                    <div className="hobbies-card">
+                    {/* <div className="hobbies-card">
                         <AnimationOnScroll animateIn="animate__zoomIn" delay={100} animateOnce={true}>
                             <div className="hobbies-icon"><i className="fa-solid fa-handshake-angle"></i></div>
                         </AnimationOnScroll>
                         <h4>Involvement</h4>
-                        <p className="hobbies-text">In addition to programming, I am also active in other areas of my life. I participate in various activities such as church involvement, clubs, volunteering, and working as a part-time waiter.</p>
-                    </div>
+                        <p className="hobbies-text">I love helping people. Whether it's volunteering or just helping a neighbor, I'll always take a time out of my day to help someone.</p>
+                    </div> */}
                     <div className="hobbies-card">
                         <AnimationOnScroll animateIn="animate__zoomIn" delay={300} animateOnce={true}>
                             <div className="hobbies-icon"><i className="fa-solid fa-code"></i></div>
                         </AnimationOnScroll>
-                        <h4>Software Development</h4>
-                        <p className="hobbies-text">With a degree in Software Design and Development, I have learned the fundamentals of software engineering and
-                            computer science. I've familiarized myself with various languages and technologies to get a better
-                            understanding of different types of software. I am always eager to learn more and expand my knowledge.</p>
+                        <h4>Programming</h4>
+                        <p className="hobbies-text">I love learning how to create things. In a constatntly growing industry where there is always something new on the horizon, there is always something new to learn.</p>
                     </div>
                     <div className="hobbies-card">
                         <AnimationOnScroll animateIn="animate__zoomIn" delay={500} animateOnce={true}>
                             <div className="hobbies-icon"><i className="fa-solid fa-dumbbell"></i></div>
                         </AnimationOnScroll>
-                        <h4>Exercise and Sports</h4>
-                        <p className="hobbies-text">I try my best not to live a sedentary lifestyle. Therefore, I'll do what it takes to get my body moving
-                            by going to the gym, playing sports, or going for a run.</p>
+                        <h4>Exercise</h4>
+                        <p className="hobbies-text">A healthy lifestyle is very important both physically and mentally. I do whatever it takes to get myself moving by going to the gym, running outdoors, or playing sports.</p>
                     </div>
                 </div>
             </div>

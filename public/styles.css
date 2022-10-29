@@ -176,7 +176,7 @@ p {
     color: #fff;
     padding: 15px 32px;
     font-size: 16px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     text-decoration: none;
     transition-duration: 0.2s;
 }
@@ -260,7 +260,7 @@ p {
 
 .hobbies-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     column-gap: 80px;
 }
 
