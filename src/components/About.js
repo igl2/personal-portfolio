@@ -13,14 +13,18 @@ let About = () => {
                 <div className="about-grid">
                     <img src={profilePhoto} alt="profile" className="profile-photo" />
                     <AnimationOnScroll animateIn="animate__fadeIn" animateOnce={true}>
-                        <p className="about-info">Hello! I'm Isaiah and I graduated from the <a className="hover-underline-animation" href="https://uwf.edu/"
-                            target="_blank" rel="noreferrer">University of West
-                            Florida</a> with a major in <a className="hover-underline-animation"
-                                href="https://uwf.edu/programs/hmcse/software-design-development-bs/" target="_blank" rel="noreferrer">Software Design and
-                                Development</a> and a minor in <a className="hover-underline-animation" href="https://uwf.edu/hmcse/departments/computer-science/"
-                                    target="_blank" rel="noreferrer">Computer Science</a>.
-                            I'm a well-rounded individual with a broad technical skill set. I'm always willing to learn and communicate with team members to ensure success and meet project deadlines.</p>
-                        {/* <p className="about-info">While studying to earn my degree, I worked part time in various companies to make my ends meet. With those jobs, I learned how to collaborate, communicate, and work as a team. In addition, I've always tried to keep myself active through hobbies such as exercise, running, sports, and clubs.</p> */}
+                        <p className="about-info">
+                            I'm a graduate of the <a className="hover-underline-animation" href="https://uwf.edu/"
+                            target="_blank" rel="noreferrer">University of West Florida</a> with a background in <a className="hover-underline-animation"
+                            href="https://uwf.edu/programs/hmcse/software-design-development-bs/" target="_blank" rel="noreferrer">Software Design and Development</a> and a minor in <a className="hover-underline-animation" href="https://uwf.edu/hmcse/departments/computer-science/"
+                            target="_blank" rel="noreferrer">Computer Science</a>. I would describe myself as a well-rounded individual who not only possesses hard skills but also soft skills such as diligence, teamwork, passion, determination, and interpersonal skills.
+                        </p>
+                        <p className="about-info">
+                            My hard skills vary having learned various technologies through courses I've taken in college and online. These technologies include but not limited to Java, C++, HTML, CSS, JavaScript, SQL, Docker, Figma, and Webflow.
+                        </p>
+                        <p className="about-info">
+                            My work experience started in the service industry as I sought to work part-time jobs while studying to earn my degree. With my experience in retail and restaurant service, I believe that I have developed excellent interpersonal and teamwork skills necessary for most career fields. A few months after earning my degree, I landed an internship as a Web Developer where I am honing my skills in HTML, CSS, and JavaScript.
+                        </p>
                     </AnimationOnScroll>
                 </div>
             </div>
