@@ -13,7 +13,7 @@ let Hobbies = () => {
                         <AnimationOnScroll animateIn="animate__zoomIn" delay={100} animateOnce={true}>
                             <div className="hobbies-icon"><i className="fa-solid fa-code"></i></div>
                         </AnimationOnScroll>
-                        <h4>Programming</h4>
+                        <h4>Development</h4>
                         <p className="hobbies-text">I love learning how to create things. In a constatntly growing industry where there is always something new on the horizon, there is always something new to learn.</p>
                     </div>
                     <div className="hobbies-card">
