@@ -260,14 +260,12 @@ p {
 
 .hobbies-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     column-gap: 80px;
 }
 
 .hobbies-icon {
-    background-color: dodgerblue;
-    border-radius: 50%;
-    color: #fff;
+    color: #000;
     font-size: 50px;
     margin-bottom: 20px;
     padding: 50px;

@@ -20,10 +20,7 @@ let About = () => {
                             target="_blank" rel="noreferrer">Computer Science</a>. I would describe myself as a well-rounded individual who not only possesses hard skills but also soft skills such as diligence, teamwork, passion, determination, and interpersonal skills.
                         </p>
                         <p className="about-info">
-                            My hard skills vary having learned various technologies through courses I've taken in college and online. These technologies include but not limited to Java, C++, HTML, CSS, JavaScript, SQL, Docker, Figma, and Webflow.
-                        </p>
-                        <p className="about-info">
-                            My work experience started in the service industry as I sought to work part-time jobs while studying to earn my degree. With my experience in retail and restaurant service, I believe that I have developed excellent interpersonal and teamwork skills necessary for most career fields. A few months after earning my degree, I landed an internship as a Web Developer where I am honing my skills in HTML, CSS, and JavaScript.
+                            My hard skills vary having learned various technologies through courses I've taken in college and online. These technologies include, but are not limited to, Java, C++, HTML, CSS, JavaScript, SQL, Docker, Figma, and Webflow.
                         </p>
                     </AnimationOnScroll>
                 </div>
