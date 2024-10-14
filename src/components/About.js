@@ -41,11 +41,11 @@ let About = () => {
               >
                 Computer Science
               </a>
-              . One of the main goals in my career is to continue to develop
-              both my leadership, techinical, and soft skills. I believe all of
-              these go hand in hand in becoming a successful worker and leader.
-              One of my favorite verses from the scriptures not only pertains to
-              my service to God, but also to the job He's called me to do.
+              . The main goals in my career is to continue to develop my
+              leadership, techinical, and soft skills. I believe all of these go
+              hand in hand in becoming a successful leader and worker. One of my
+              favorite verses from the scriptures not only pertains to my
+              service to God, but also to the job He's called me to do.
             </p>
             <p>
               <i>
