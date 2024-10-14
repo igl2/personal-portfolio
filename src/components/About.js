@@ -54,7 +54,7 @@ let About = () => {
                 the inheritance; for you reserve the Lord Christ"
                 <br></br>
                 <br></br>
-                Colossians 3:32-24
+                Colossians 3:23-24
               </i>
             </p>
           </AnimationOnScroll>
