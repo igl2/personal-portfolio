@@ -28,7 +28,7 @@ let Hobbies = () => {
                             <div className="hobbies-icon"><i class="fa-solid fa-person-running"></i></div>
                         </AnimationOnScroll>
                         <h4>Sports & Exercise</h4>
-                        <p className="hobbies-text">A healthy lifestyle is very important both physically and mentally. A couple things I like to do outside of work are exercise and recreational sports. A few things I love to do include crossfit, basketball, beach volleyball, and pickleball!</p>
+                        <p className="hobbies-text">A healthy lifestyle is important both physically and mentally. Exercise and recreational sports are a couple things that keep me engaged in maintaining a healthy body and life.</p>
                     </div>
                 </div>
             </div>
