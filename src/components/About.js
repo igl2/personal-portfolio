@@ -51,7 +51,7 @@ let About = () => {
               <i>
                 "And whatever you do, do it heartily, as to the Lord and not to
                 men, knowing that from the Lord you will receive the reward of
-                the inheritance; for you reserve the Lord Christ"
+                the inheritance; for you serve the Lord Christ"
                 <br></br>
                 <br></br>
                 Colossians 3:23-24
